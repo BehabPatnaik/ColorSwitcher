@@ -1,0 +1,52 @@
+body {
+      background: #111;
+      color: #fff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      transition: background 0.5s;
+    }
+    h1 {
+      margin-top: 40px;
+      font-size: 2.2em;
+    }
+    .desc {
+      font-style: italic;
+      margin: 20px 0 40px 0;
+      font-size: 1.2em;
+    }
+    .button-row {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    .color-btn {
+      width: 180px;
+      height: 50px;
+      border: none;
+      border-radius: 20px;
+      font-size: 1.1em;
+      color: #fff;
+      cursor: pointer;
+      transition: transform 0.1s, box-shadow 0.2s;
+    }
+    .color-btn:active {
+      transform: scale(0.97);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    .btn-black { background: linear-gradient(#444, #000); }
+    .btn-orange { background: linear-gradient(#ffb347, #ff6600); }
+    .btn-pink { background: linear-gradient(#ffb3ff, #ff00cc); }
+    .btn-blue { background: linear-gradient(#b3e0ff, #0099ff); }
+    .footer {
+      margin-top: 60px;
+      font-size: 1.1em;
+    }
+    .footer a {
+      color: orange;
+      text-decoration: none;
+      font-weight: bold;
+    }
